@@ -1,9 +1,4 @@
 const Publisher = require('../src/publisher.js');
-// let testPub;
-
-// beforeEach(() => {
-//   testPub = Publisher();
-// });
 
 it('adds subscribers to subscriber list', () => {
   const testPub = Publisher(() => {});
