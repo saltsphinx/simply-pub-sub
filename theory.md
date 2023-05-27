@@ -1,0 +1,1 @@
+should be fairly simple. there are publishers, basically events that have a centeral method. it calls that method, takes the return value then passes it to all subscribers, who subscribe to the publisher.
