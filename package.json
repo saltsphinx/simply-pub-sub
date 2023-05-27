@@ -2,7 +2,7 @@
   "name": "simply-pub-sub",
   "version": "1.0.0",
   "description": "A simple pub/sub system.",
-  "main": "src/index.js",
+  "main": "src/publisher.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
