@@ -1,5 +1,5 @@
 # simply-pub-sub
-A simple pub sub system. Pass the publisher factory your main function, and use the return function in its place. Use it's methods to subscribe and unsubscribe other functions, and it's as simple as that.
+A simple pub/sub system. Pass the publisher factory your main function, and use the return function in its place. Use it's methods to subscribe and unsubscribe other functions, and it's as simple as that.
 
 # API
 ## Publisher
