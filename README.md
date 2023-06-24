@@ -29,3 +29,7 @@ subscribers
 
 mainFunction
 - the function passed to Publisher factory.
+
+## Event
+Event() -> event(...args)
+- Has the same API and functionality as Publisher, but doesn't accept or call main function, and instead passes arguments directly to subscribers.
