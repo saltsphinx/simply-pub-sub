@@ -8,7 +8,7 @@ it('adds subscribers to subscriber list', () => {
   expect(testPub.subscribers).toHaveProperty('testFnc', testFnc);
 });
 
-it('removes subscribers to subscriber list', () => {
+it('removes subscribers from subscriber list', () => {
   const testPub = Publisher(() => {});
   const testFnc = () => {};
   testPub.subscribe('testFnc', testFnc);
