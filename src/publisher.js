@@ -30,7 +30,7 @@ function Publisher(mainFnc) {
   publish.subscribe = subscribe;
   publish.unsubscribe = unsubscribe;
   publish.unsubscribeAll = unsubscribeAll;
-  publish.mainFunction = mainFnc
+  publish.mainFunction = mainFnc;
   return publish;
 }
 
