@@ -5,7 +5,7 @@ A simple pub/sub system. Pass the publisher factory your main function, and use 
 ## Publisher
 Publisher(mainFnc)
 - A factory that returns a publish function, who has several methods and custom properties attached to it.
-- Terminates program if none function is passed.
+- Terminates program if no function is passed.
 
 subscribe(subName, fnc)
 - adds function to subscribers object with the key subName
